@@ -38,7 +38,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         
-    
+        
+        // Testing 
         pSub.subscribe(onNext: { elem in
              print(elem)
         }, onError: { error in
